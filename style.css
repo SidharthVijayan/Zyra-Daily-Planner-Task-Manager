@@ -1,0 +1,55 @@
+body {
+  font-family: Inter, sans-serif;
+  background: #f7f7f7;
+  padding: 12px;
+  width: 750px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+table {
+  width: 100%;
+  background: white;
+  border-radius: 8px;
+  border-collapse: collapse;
+}
+
+th {
+  background: #fafafa;
+}
+
+td, th {
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+}
+
+tr:hover {
+  background: #f3f3f3;
+}
+
+.blocked {
+  opacity: 0.4;
+}
+
+select, input, [contenteditable] {
+  border: none;
+  background: transparent;
+  width: 100%;
+}
+
+button {
+  margin-top: 10px;
+  background: black;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #333;
+}
