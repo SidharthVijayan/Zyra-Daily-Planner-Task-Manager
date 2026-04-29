@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h2>⚡ Zyra</h2>
+
+<select id="locationFilter">
+  <option value="All">All Locations</option>
+  <option value="Kerala">Kerala</option>
+  <option value="Mumbai">Mumbai</option>
+  <option value="Poothole">Poothole</option>
+</select>
+
+<table>
+  <thead>
+    <tr>
+      <th>✔</th>
+      <th>Task</th>
+      <th>Location</th>
+      <th>Priority</th>
+      <th>Status</th>
+      <th>Depends On</th>
+      <th>Date</th>
+      <th>📅</th>
+    </tr>
+  </thead>
+  <tbody id="taskTable"></tbody>
+</table>
+
+<button id="addTask">+ Add Task</button>
+
+<script src="popup.js"></script>
+</body>
+</html>
